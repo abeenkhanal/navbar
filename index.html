@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation</title>
+    <title>Navigation Bar with Logo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<link rel="stylesheet" href="./style.css">
 <body>
-    <div class="navbar">
-        <div class="logo">Logo</div>
-        <div class=" navsec">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li> <a href="#">About</a></li>
-                <li> <a href="#">Product</a></li>
-                <li> <a href="#">Contact</a></li>
-            </ul>
+    <nav class="navbar">
+        <div class="logo">
+            <h2>Logo</h2>
         </div>
+            <div class="items">
+        
+        <ul>
+            <li><a href="#home" onclick="navbar('home')" id="home">Home</a></li>
+            <li><a href="#services" onclick="navbar('services')" id="services">Services</a></li>
+            <li><a href="#about" onclick="navbar('about')" id="about">About</a></li>
+            <li><a href="#contact" onclick="navbar('contact')" id="contact">Contact</a></li>
+        </ul>
     </div>
+    </nav>
+    <script src="./script.js"></script>
 </body>
 </html>
