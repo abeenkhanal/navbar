@@ -1,0 +1,25 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.navsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: right;
+    background-color: aqua;
+}
+.navsec ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    background-color: beige;
+    
+}
+.navsec ul li a:hover{
+    color: rgb(249, 246, 246);
+    background-color: black;
+
+}
