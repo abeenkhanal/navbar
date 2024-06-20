@@ -11,4 +11,6 @@ function navbar(active){
        }
     })
 }
+
+
 navbar('home')
