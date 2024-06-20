@@ -10,7 +10,5 @@ function navbar(active){
         li.classlist.add('active')
        }
     })
-
-    
 }
 navbar('home')
